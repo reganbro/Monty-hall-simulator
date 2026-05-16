@@ -46,7 +46,7 @@ The next step is switching from the original pick to the other available door. T
 
     selection = doors[1 - (pick if pick < reveal else pick - 1)]
 
-#Counting and output
+# Counting and output
 if selection is =1 that means the program selected a door that contains 1 and the contestant won a round. else it picks a 0 and the contestant lost.
 
     if selection==1:
@@ -57,7 +57,7 @@ if selection is =1 that means the program selected a door that contains 1 and th
   The ratio is then presented as percentages and will be the output for the program.
 
     print("wins:",str(wins*100/1000)+"%","loss:",str(loss*100/1000)+"%")
-#Results
+# Results
 In a sample of 1 Million rounds the contestant won 66.7123% of the time, as predicted in the Monty Hall problem. You can try a sample size as big as you want
 But the results seem to always converge to 66.7%. Perhaps this can be used as emperical proof that the Monty Hall problem is correct, but im sure that has
 been done many times.
