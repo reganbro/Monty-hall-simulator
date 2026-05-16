@@ -2,9 +2,9 @@
 A simple python program that simulates the Monty Hall problem.
 
 This simulation has a couple of conditions:
--The contestant will have a random first pick
--The contestant will always switch from the first pick
--Each run has 1000 rounds
+- The contestant will have a random first pick
+- The contestant will always switch from the first pick
+- Each run has 1000 rounds
 
 # Randomizing the content of the 3 doors
 The first step is to create a list where each door contains a number from 0 to 1. 0 being a goat (loss) and 1 being a car (win)
