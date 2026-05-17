@@ -30,7 +30,7 @@ then it will forcefully assign a car to a random door.
         doors[random.randint(0,2)]=1
 
 # Picking and revealing
-In the real Monty Hall problem the contestant picks a door first before reavling a door that contains a goat. The contestant then is given
+In the real Monty Hall problem, the contestant picks a door first before revealing a door that contains a goat. The contestant is then given
 a choice either to stay with their pick or switch to the other door. Here the first pick will be randomized and so will be the revealed door.
 The logic is that the revealed door and the picked door cannot be the same and the revealed door cannot contain a car.
 
